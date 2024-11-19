@@ -1,0 +1,41 @@
+.main img{
+    width: 200px; 
+}
+.main{
+    background: #1ABC9C;
+    color: #fff;
+    padding: 100px 0px;
+}  
+.main .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  text-transform: uppercase;
+  text-align: center;
+}
+.main .container h1{
+    font-size: 38px;
+    font-weight: 800;
+}
+.main .container p{
+    text-transform: capitalize;
+}
+.main .container i{
+    position: relative;
+}
+.main .container i::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #fff;
+}
+.main .container i::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #fff;
+}

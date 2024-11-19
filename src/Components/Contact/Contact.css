@@ -1,0 +1,39 @@
+.contact{
+    padding: 20px 100px;
+}
+.contact h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-top: 20px;
+}
+.contact .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.contact input{
+    width: 750px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #DFE3E6;
+    outline: none;
+}
+.contact  input[type="submit"]{
+    width: 140px;
+    height: 40px;
+   background: #1ABC9C;
+   color: #fff;
+   border-radius: 6px;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  text-transform: capitalize;
+  font-size: 17px;
+  margin-right: 610px;
+}
